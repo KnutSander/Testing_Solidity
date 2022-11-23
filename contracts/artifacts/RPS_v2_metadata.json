@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "decide",
 				"outputs": [
 					{
@@ -21,12 +34,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "player",
 						"type": "address"
 					},
 					{
-						"internalType": "enum RPS_v1.Move",
+						"internalType": "enum RPS_v2.Move",
 						"name": "move",
 						"type": "uint8"
 					}
@@ -63,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/rps_v2.sol": "RPS_v1"
+			"contracts/rps_v2.sol": "RPS_v2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -78,11 +91,11 @@
 	},
 	"sources": {
 		"contracts/rps_v2.sol": {
-			"keccak256": "0x88851ac783dcd1d89010366611d7bf562bcaa1f6f07c1c2d7ff3f6876ed47fd1",
+			"keccak256": "0x40d63743b003f960dad611960b3edf5717b9f9f35adc8d5d80c1295c75b8cd81",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://131fa8353ad6429a2981fb0bf40fdcc5b515612cd8040c6db0bf6a5ffbda955e",
-				"dweb:/ipfs/QmVAABNyFJcsUoaqncsKpX6mqzs2ycC9jXGK8VPib3kSKg"
+				"bzz-raw://87f416cef36e77373172ff1a96a0640d2791a1c398e01c5ce64f5bfcc1f9ce2b",
+				"dweb:/ipfs/QmWSbMKrQE1ZvFNJagj4cBcanzEdirKEDvhzDHuGerkhjr"
 			]
 		}
 	},
