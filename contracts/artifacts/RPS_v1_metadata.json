@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decide",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "player",
+						"type": "address"
+					},
+					{
+						"internalType": "enum RPS_v1.Move",
+						"name": "move",
+						"type": "uint8"
+					}
+				],
+				"name": "play",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/rps_v1.sol": "RPS_v1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/rps_v1.sol": {
+			"keccak256": "0x8b90d4797712bb7c6d15200e43e6523442342602ce968cb001c6488e0798957d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a17a6041f5e312f4decd30f2b691025478a9432762e1f947a2ecd281d11e6912",
+				"dweb:/ipfs/QmPy1o2FAEw1kX4bvvxPUPTJp7XsvheVDgNULzVVAcwGN2"
+			]
+		}
+	},
+	"version": 1
+}
